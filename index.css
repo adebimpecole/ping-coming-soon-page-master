@@ -1,0 +1,144 @@
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.main{
+    text-align: center;
+    
+}
+#icon{
+    height: 20px;
+    width: 75px;
+}
+.icondiv{
+    padding: 35px;
+}
+.txt1{
+    font-size: 35px;
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 15px;
+}
+.txt1_2{
+    color: hsl(209, 33%, 12%);
+    font-weight: bolder;
+}
+.txt2{
+    font-size: 15px;
+}
+#realdeal{
+    margin: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;}
+.input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+.image img{
+    margin: 10px;
+    width: 500px;
+}
+
+#txt{
+    padding: 15px;
+    width: 300px;
+    border-radius: 25px;
+    border-color: hsl(0, 0%, 59%);
+    color: hsl(0, 0%, 59%);
+    margin-right: 10px;
+    outline: none;
+}
+
+#btn{
+    width: 150px;
+    padding: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    box-shadow: 0 2px 0.8em hsl(223, 100%, 88%); 
+}
+#btn:hover{
+    background-color: hsl(223, 100%, 88%); 
+}
+.foot{
+    color: hsl(0, 0%, 59%);
+    font-size: 10px;
+}
+
+::-webkit-input-placeholder { /* Chrome, Opera, and Safari */
+  color: hsl(0, 0%, 59%);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: hsl(0, 0%, 59%);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: hsl(0, 0%, 59%);
+}
+:-ms-input-placeholder { /* Microsoft Edge */
+  color: hsl(0, 0%, 59%);
+}
+div > i{
+    width: 25px;
+    height: 20px;
+    color: hsl(223, 87%, 63%);
+    vertical-align: bottom;
+    padding-top: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid hsl(223, 100%, 88%);
+    outline: none;
+    margin: 40px 5px 15px 5px;
+}
+div > i:hover{
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+}
+.error{
+    font-size: 10px;
+    color: hsl(354, 100%, 66%);
+
+}
+@media only screen and (max-width: 480px){
+    #btn{
+        width: 300px;
+        padding: 10px;
+    }
+    #txt{
+        width: 245px;
+        padding: 10px 25px 10px 25px;
+    }
+    #realdeal{
+        margin: 25px 25px 25px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    
+    }
+    .txt1{
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .txt2{
+        font-size: 13px;
+    }
+    #icon{
+        height: 15px;
+        width: 57px;
+    }
+    .image img{
+        margin: 10px;
+        width: 350px;
+    }
+    div > i{
+        width: 25px;
+        height: 20px;
+        margin: 70px 5px 15px 5px;
+    }
+
+}
